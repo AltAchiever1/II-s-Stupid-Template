@@ -156,7 +156,7 @@ namespace StupidTemplate.Menu
                 CanvasScaler canvasScaler = canvasObject.AddComponent<CanvasScaler>();
                 canvasObject.AddComponent<GraphicRaycaster>();
                 canvas.renderMode = RenderMode.WorldSpace;
-                canvasScaler.dynamicPixelsPerUnit = 9999f;
+                canvasScaler.dynamicPixelsPerUnit = 4095f;
 
             // Title and FPS
                 Text text = new GameObject
